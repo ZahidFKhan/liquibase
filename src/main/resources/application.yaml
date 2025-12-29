@@ -5,7 +5,7 @@ spring:
     console:
       enabled: true
   liquibase:
-    change-log: src/main/resources/db/changelog/${phase-release}/db.changelog.xml
+    change-log: classpath:/db/changelog/Phase-1/db.changelog.xml
 
   datasource:
     url: jdbc:h2:./data/database;AUTO_SERVER=TRUE

@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="LiquibaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <envs>
+      <env name="phase-release" value="Phase-1" />
+    </envs>
+    <module name="Liquibase" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.zahidfkhan.liquibase.LiquibaseApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
