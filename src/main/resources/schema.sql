@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS Student
+(
+    name    VARCHAR(255) NOT NULL PRIMARY KEY,
+    address VARCHAR(500)
+);
